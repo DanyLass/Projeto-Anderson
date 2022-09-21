@@ -1,0 +1,40 @@
+section.container {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+
+    div.icon {
+        display: flex;
+        justify-content: flex-end;
+
+        h3 {
+            font: sans-serif;
+            display: flex;
+            justify-content: flex-end;
+            text-align: center;
+            font-size: clamp(1em, 1em + 1vw, 1.5em);
+        }
+    }
+
+    strong.header {
+        font-size: 30px;
+
+        h1 {
+            font: sans-serif;
+            font-size: clamp(1em, 1em + 1vw, 1.5em);
+        }
+    }
+
+    section.text {
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        h2 {
+            font: sans-serif;
+            font-size: clamp(1em, 1em + 1vw, 1.5em);
+        }
+    }
+}
